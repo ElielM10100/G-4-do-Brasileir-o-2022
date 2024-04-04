@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .team {
+    width: calc(50% - 20px);
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .team:hover {
+    transform: translateY(-5px);
+  }
+  
+  .team-logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .team h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .team p {
+    margin: 5px 0;
+    color: #666;
+    text-align: center;
+  }
+  
+  .team p strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .roster {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .roster li {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
